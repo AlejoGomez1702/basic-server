@@ -16,3 +16,6 @@ Consumo de un servicio ejecutandose localmente en el puerto 5000 `http://localho
 
 ## Petición DELETE
 `curl -X DELETE http://localhost:5000/1`
+
+# Nota de Seguridad
+Para deshabilitar ssl se usa la opción: `--ssl-no-revoke`
